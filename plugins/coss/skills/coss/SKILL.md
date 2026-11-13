@@ -49,6 +49,10 @@ key) is the user's step, in the dashboard.
 
 - TypeScript: `import { Coss } from "coss"`; `new Coss()` reads `COSS_API_KEY`. Create the client
   in server code only; the key must never reach a browser bundle.
+- In CI and deployments (GitHub Actions, Vercel, GitLab, CircleCI), prefer an OIDC credential to a
+  stored key: with `COSS_OIDC_CREDENTIAL_ID` set and no `COSS_API_KEY`, the SDK, CLI and MCP
+  server exchange the job's OIDC ID token for a short-lived access token
+  (https://coss.com/docs/oidc). The credential is created in the dashboard.
 - Every SDK method returns `{ data, error }` and never throws for API or network failures. Check
   `error` (`type`, `code`, `message`, `hint` when it names the fix, `issues` for validation
   errors) on every call.
