@@ -1,0 +1,14 @@
+{
+  "name": "coss-com",
+  "displayName": "coss.com",
+  "description": "Build with coss.com: one API key and SDK for email, AI agent inboxes, SMS, one-time codes, e-signatures, forms, scheduling, webhooks and risk checks. A skill that adds coss.com to a project and debugs it.",
+  "author": {
+    "name": "coss.com",
+    "url": "https://coss.com"
+  },
+  "homepage": "https://coss.com/docs/agents",
+  "repository": "https://github.com/cosscom/skills",
+  "license": "MIT",
+  "icon": ".claude-plugin/icon.png",
+  "keywords": ["coss", "email", "sms", "otp", "e-signature", "scheduling", "webhooks", "risk"]
+}
