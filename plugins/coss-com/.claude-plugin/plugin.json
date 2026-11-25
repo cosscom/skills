@@ -7,6 +7,10 @@
     "url": "https://coss.com"
   },
   "homepage": "https://coss.com/docs/agents",
+  "documentationUrl": "https://coss.com/docs/agents",
+  "supportUrl": "https://coss.com/contact",
+  "privacyPolicyUrl": "https://coss.com/legal/privacy",
+  "termsOfServiceUrl": "https://coss.com/legal/terms",
   "repository": "https://github.com/cosscom/skills",
   "license": "MIT",
   "icon": ".claude-plugin/icon.png",

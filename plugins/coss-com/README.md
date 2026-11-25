@@ -12,3 +12,11 @@ delivery diagnosis and the API), install `coss` from this repository's marketpla
 ```
 
 MIT licensed, maintained by coss.com, from the team behind Cal.com.
+
+## Data
+
+The skill sends nothing anywhere by itself. It has Claude run `npx coss-cli` and the `coss` SDK in your project, which
+call coss.com's API (`api.coss.com`) with your project's `COSS_API_KEY`: what a command sends, such as an email's
+recipients and content, goes to coss.com and is kept for the periods in
+[coss.com/docs/data-retention](https://coss.com/docs/data-retention), under the
+[privacy policy](https://coss.com/legal/privacy).
